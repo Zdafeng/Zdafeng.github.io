@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FlareReal600">
+
+    <title>Flare Real 600 Dataset</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+    <link id="theme-style" rel="stylesheet" href="./Packages/FlareReal600/css/avatarclip_main.css">
+    <link id="theme-style" rel="stylesheet" href="./Packages/FlareReal600/css/bulma-carousel.min.css">
+    <link id="theme-style" rel="stylesheet" href="./Packages/FlareReal600/css/bulma-slider.min.css">
+
+    <!-- <script type="module" src="./assets/js/background_box.js"></script> -->
+    <script type="module" src="./js/background_star.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./Packages/FlareReal600/js/bulma-carousel.min.js"></script>
+    <script src="./Packages/FlareReal600/js/bulma-slider.min.js"></script>
+    <script src="./Packages/FlareReal600/js/index.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+    
+    
+    <div class="wrapper">
+        <!--
+        <section class="section">
+        
+            <div class="details">
+                <div align="center">
+                <img class='links-cover'
+                        src='./Data/banner/banner_test.png' ,height="50%" width="100%"></div>
+            </div>
+            
+            
+        </section>
+        -->
+        <section class="section intro-section">
+            <div class="intro-container" style="text-align: center;">
+                <div class="header">
+                    <h3 class="papername"><b>FlareReal600</b>: Real-Captured Paired Dataset for Nighttime Flare Removal
+                    </h3>
+                </div>
+                <ul class="list-unstyled name-list">
+                    <li><a href="" target="_blank">Guanqun Liu</a></li>
+                    <li><a href="https://zdafeng.github.io/" target="_blank">Dafeng Zhang</a></li>
+                </ul>
+                <ul class="list-unstyled name-list">
+                    <li><a href="" target="_blank">Samsung Research China - Beijing (SRC-B)</a></li>
+                </ul>
+
+            </div>
+            
+        </section>
+        
+        
+        <section class="section">
+        <div align="center">
+        <div class="container">
+            <div class="columns is-multiline is-centered">
+              <table>
+                <tr>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/input/004225.jpg' height="256" width="125" />
+                      <p class="video-caption">flare-corrupted &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/input/003910.jpg' height="256" width="125" />
+                      <p class="video-caption">flare-corrupted &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/input/003967.jpg' height="256" width="125" />
+                      <p class="video-caption">flare-corrupted &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/input/004000.jpg' height="256" width="125" />
+                      <p class="video-caption">flare-corrupted &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/input/004055.jpg' height="256" width="125" />
+                      <p class="video-caption">flare-corrupted &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/input/004105.jpg' height="256" width="125" />
+                      <p class="video-caption">flare-corrupted &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/input/004412.jpg' height="256" width="125" />
+                      <p class="video-caption">flare-corrupted &nbsp</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/gt/004225.jpg' height="256" width="125" />
+                      <p class="video-caption">&nbsp &nbsp flare-free &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/gt/003910.jpg' height="256" width="125" />
+                      <p class="video-caption">&nbsp &nbsp flare-free &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/gt/003967.jpg' height="256" width="125" />
+                      <p class="video-caption">&nbsp &nbsp flare-free &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/gt/004000.jpg' height="256" width="125" />
+                      <p class="video-caption">&nbsp &nbsp flare-free &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/gt/004055.jpg' height="256" width="125" />
+                      <p class="video-caption">&nbsp &nbsp flare-free &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/gt/004105.jpg' height="256" width="125" />
+                      <p class="video-caption">&nbsp &nbsp flare-free &nbsp</p>
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/flare_pair/gt/004412.jpg' height="256" width="125" />
+                      <p class="video-caption">&nbsp &nbsp flare-free &nbsp</p>
+                  </td>
+                </tr>
+                  
+              </table>
+            </div>
+        </div>
+        
+
+        </section>
+
+        <section class='section'>
+            <div class="section-title">
+                Abstract
+            </div>
+            <div class="details" style="text-align: justify" ;>
+                Flare removal methods eliminate reflective and scattering flares within images and commonly trained on synthetic data pairs. 
+                However, they fail to achieve robustness for real-world flare-corrupted images as the adopted synthetic training data remains 
+                gaps with real-world data. In this paper, we propose a real-captured paired dataset named FlareReal600, which contains both 
+                real-captured image pairs and pure flare images. Compared with the existing flare removal dataset Flare7k++, our dataset is 
+                particularly effective for real-world scenarios as our data contains the faithful mapping between real flare-corrupted images 
+                and real flare-free images. Additionally, previous methods either lack sufficient receptive fields or achieve them with huge 
+                computational cost, which leads to flares being partly removed or hardly processing high-resolution images. 
+                Therefore, we propose a novel flare removal network named <b>M</b>utual re<b>C</b>eption f<b>LA</b>re <b>RE</b>moval <b>N</b>etwork (McLaren), 
+                which utilizes convolutions with diverse kernel sizes and fuses them from the perspective of both spatial and channel 
+                dimensions to achieve a sufficient receptive field. Furthermore, we employ a reparameterization mechanism to avoid occupying 
+                excessive computational resources. We conduct extensive experiments to demonstrate functions of our dataset and our McLaren network. 
+                We also employed a down-sampled version of our dataset to host the <a href="https://mipi-challenge.org/MIPI2024/">MIPI 2024 flare removal challenge</a>.
+            </div>
+        </section>
+        
+        <section class='section links-section'>
+            <div class='section-title'>
+                Links
+            </div>
+            <div class='details links-table'>
+                <table>
+                    <tr>
+                        <td>
+                            <div class='links-container'>
+                                <a href='' target="_blank"><img class='links-cover'
+                                        src='./Packages/FlareReal600/Data/paper.png' alt='PDF Cover' width="220"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class='links-container'>
+                                <a href='' target="_blank"><img class='links-cover'
+                                        src='./Packages/FlareReal600/Data/github.png' alt='github icon' width="220"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class='links-container'>
+                                <a href='' target="_blank"><img class='links-cover'
+                                        src='./Packages/FlareReal600/Data/Google_Drive.png' alt='drive icon' width="220"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class='links-container'>
+                                <a href='https://mipi-challenge.org/MIPI2024/index.html' target="_blank"><img class='links-cover'
+                                        src='./Packages/FlareReal600/Data/MIPI_logo.png' alt='drive icon' width="220"></a>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href='' target="_blank">Paper</a></td>
+                        <td><a href='https://github.com/Zdafeng/FlareReal600' target="_blank">Code</a></td>
+                        <td><a href='https://drive.google.com/drive/folders/1LLLYEM0RhQMWIj0lTl_rK3jzZJWJrd5m?usp=sharing' target="_blank">Dataset</a></td>
+                        <td><a href='https://mipi-challenge.org/MIPI2024' target="_blank">MIPI Challenge</a></td>
+                        
+                    </tr>
+                    
+                </table>
+            </div>
+        </section>
+                
+        <section class='section'>
+            <div class="section-title">
+                <b>M</b>utual re<b>C</b>eption f<b>LA</b>re <b>RE</b>moval <b>N</b>etwork (McLaren)
+            </div>
+            <div align="center">
+            <img src="./Packages/FlareReal600/Data/model.png" height="600">
+        </section>        
+
+        <section class="section">
+            <div class="section-title">
+                Flare Removal Result on Real Data (McLaren)
+            </div>
+        <div align="center">
+        <div class="container">
+            <div class="columns is-multiline is-centered">
+              <table>
+                <tr>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/002597.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/002597.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/002597.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/002745.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/002745.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/002745.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/002828.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/002828.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/002828.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/003195.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/003195.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/003195.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/003546.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/003546.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/003546.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/004241.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/004241.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/004241.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/004279.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/004279.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/004279.jpg';"  height="256" width="125" />
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/002887.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/002887.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/002887.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/003065.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/003065.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/003065.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/003102.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/003102.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/003102.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/003184.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/003184.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/003184.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/003695.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/003695.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/003695.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/003820.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/003820.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/003820.jpg';"  height="256" width="125" />
+                  </td>
+                  <td style="padding:5px 25px 5px 5px;">
+                      <img src='./Packages/FlareReal600/Data/removal_result/input/004194.jpg' onmouseover="this.src='./Packages/FlareReal600/Data/removal_result/result/004194.jpg';" onmouseout="this.src='./Packages/FlareReal600/Data/removal_result/input/004194.jpg';"  height="256" width="125" />
+                  </td>
+                </tr>                 
+              </table>
+            </div>
+          </div>
+            <p> MouseOver: Nighttime deflared images</p>            
+            <p> MouseOut: Nighttime flare-corrupted images</p>
+        </div>
+        
+
+        </section>
+
+        <section>
+    
+            <p>We referred to the project page of <a href="https://ykdai.github.io/projects/Flare7K">Flare7K</a> when creating this project page.</p>
+                <p> This project is licensed under <a
+                    href="https://github.com/Zdafeng/FlareReal600/blob/main/LICENSE">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. Redistribution and use should follow this license.</p>
+        </section>
+
+    </div>
+
+
+</body>
+
+</html>
