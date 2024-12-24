@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dafeng Zhang</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <link rel="shortcut icon" type="image/x-icon" href="images/misc/profile.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.7.5-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+  <link href='css/style.css?_t=20200916' rel='stylesheet' type='text/css'>
+  <script defer src="font-awesome/js/brands.min.js"></script>
+  <script defer src="font-awesome/js/regular.min.js"></script>
+  <script defer src="font-awesome/js/fontawesome.min.js"></script>
+    <style>
+      .red {
+        color: rgb(238, 76, 44);
+        font-style: normal;
+      }
+      .blue {
+        color: rgb(238, 76, 44);
+        font-style: normal;
+      }
+       
+      #intro {
+       margin-top: 0em !important;
+      }
+      
+      .content h3 {
+       margin-bottom: 1em!important;
+       margin-top: 2em!important;
+      }
+
+      .content figure {
+       width: 90%;
+       display: flex;
+       align-items: center;
+       overflow: hidden;
+       margin-left: auto!important;
+       margin-right: auto!important;
+      }
+      
+      .columns:not(:last-child) {
+       margin-bottom: 1.75rem!important;
+      }
+
+      #sidebar {
+        width: 75%;
+      }
+
+      @media screen and (min-width: 769px), print {
+        .column.is-2_5, .column.is-2-tablet {
+          flex: none;
+          width: 20%;
+        }
+      }
+</style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-2_5">
+          <div class="sticky">
+            <figure class="image" style="width: 11.6rem; margin-top: 6px;">
+              <img src="images/misc/dafeng1.jpg">
+            </figure>
+            <div class="content">
+              <h2 style="margin-top: 1em">Dafeng Zhang</h2>
+            </div>
+            <!-- social network icons -->
+            <div class="social">
+              <a href="" target="_blank">
+                <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 5px"></span>
+              </a>
+              <a href="https://scholar.google.com/citations?user=_r5ZUm8AAAAJ" target="_blank">
+                <span class="fab fa-google fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 30px"></span>
+              </a>		  
+              <a href="mailto:dfeng.zhang@samsung.com" target="_blank">
+                <span class="fa-regular fa-envelope fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 30px"></span>
+              </a>
+            </div>
+            <!-- slogon -->
+          
+            <div id="sidebar" class="menu sticky is-hidden-mobile">
+              <p class="menu-label"><b>Quick Links</b></p>
+              <ul class="menu-list">
+                <li><a href="#intro">About Me</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Challenge Awards</a></li>
+		<li><a href="#services">Professional Service</a></li>
+              </ul>
+            </div>
+
+            <div class="slogon">
+              <p>Welcome to my homepage!</p> 
+            </div>
+          </div>
+
+          
+
+        </div>
+        <div class="column right-panel">
+          <div class="content">
+
+
+            <!--About Me-->
+            <h2 id="intro">About Me</h2>
+            <p>
+              I am currently a senior researcher at Samsung Research China - Beijing (SRC-B). I obtained M.S. degree in Electronic Science and Technology in 2019 from the school of Guizhou University. My research interest is to solve challenging problems in image restoration and face recognition. I have won multiple championships about image restoration in the CVPR competitions. My current work mainly focuses on image super resolution, nighttime flare removal and face clustering.
+            </p>
+            
+
+            <!--Experience-->
+            <h2 id="experiences" style="margin-bottom: 25px;">Experiences</h2>
+            
+            <article class="columns">
+              
+              <div class="column is-2" >
+                <div class="image">
+                  <img src="images/misc/samsung-logo.png" >
+                </div>
+              </div>
+             
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Senior Researcher</b> | Samsung Research China - Beijing (SRC-B)<br>
+					<b>Image Restoration and Face clustering</b><br>
+                    Time: July 2019 - present.
+                  </p>
+                </div>
+              </div>
+            </article>
+			
+            <article class="columns">
+              
+              <div class="column is-2" >
+                <div class="image">
+                  <img src="images/misc/Tsinghua-logo.jpg" >
+                </div>
+              </div>
+             
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>School-enterprise Cooperation</b> | Samsung & Tsinghua University<br>
+					<b>Face clustering</b><br>
+                    Time: Aug 2022 - present. Advisor: Prof. <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/" target="_blank"> Jiwen Lu</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+  
+		  
+            <!--Publications-->
+            <h2 id="publications">
+              Publications
+              <span style="font-size: 1rem;margin-left: 1rem;position: relative;bottom: .2rem;">
+                <a href="https://scholar.google.com/citations?user=_r5ZUm8AAAAJ" target="_blank" style="font-size: 20px;">
+                  [Google Scholar]
+                </a>
+              </span>
+            </h2>
+
+            <!--List of publications-->  
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\publications\CLIP-Cluster.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>CLIP-Cluster: CLIP-Guided Attribute Hallucination for Face Clustering</b><br>
+                    International Conference on Computer Vision, <b>ICCV 2023</b></i> &nbsp;<br>
+		    <em class="red"><b>Poster</b></em><br>
+                    Shuai Shen, Wanhua Li, Xiaobing Wang, <b>Dafeng Zhang</b>, Zhezhu Jin, Jie Zhou and Jiwen Lu.<br>
+                    <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Shen_CLIP-Cluster_CLIP-Guided_Attribute_Hallucination_for_Face_Clustering_ICCV_2023_paper.pdf" target="_blank">[Paper]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+	
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\publications\FF-Former.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>FF-Former: Swin Fourier Transformer for Nighttime Flare Removal</b><br>
+                    Computer Vision and Pattern Recognition Workshop, <b>CVPRW 2023</b></i> &nbsp;<br>                   
+                    <b>Dafeng Zhang</b>, Jia Ouyang, Guanqun Liu, Xiaobing Wang, Xiangyu Kong and Zhezhu Jin.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/MIPI/papers/Zhang_FF-Former_Swin_Fourier_Transformer_for_Nighttime_Flare_Removal_CVPRW_2023_paper.pdf" target="_blank">[Paper]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\publications\NAFBET.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NAFBET: Bokeh Effect Transformation with Parameter Analysis Block based on NAFNet</b><br>
+                    Computer Vision and Pattern Recognition Workshop, <b>CVPRW 2023</b></i> &nbsp;<em class="red"></em><br>
+                    Xiangyu Kong, Fan Wang, <b>Dafeng Zhang</b>, Jinlong Wu and Zikun Liu.<br>                   
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Kong_NAFBET_Bokeh_Effect_Transformation_With_Parameter_Analysis_Block_Based_on_CVPRW_2023_paper.pdf" target="_blank">[Paper]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+			
+	    <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\publications\CAGCN.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Context-Aware Face Clustering with Graph Convolutional Networks</b><br>
+                    International Conference on Acoustics, Speech and Signal Processing, <b>ICASSP 2023</b></i> &nbsp;<br>                   
+                    <b>Dafeng Zhang</b>, Jiangbo Guo and Zhezhu Jin.<br>
+                    <a href="https://ieeexplore.ieee.org/document/10096022" target="_blank">[Paper]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+			
+	    <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\publications\MRNet.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>MRNet: Multi-Refinement Network for Dual-pixel Images Defocus Deblurring</b><br>
+                    International Conference on Acoustics, Speech and Signal Processing, <b>ICASSP 2023</b></i> &nbsp;<br>
+		    <em class="red"><b>Oral</b></em><br>
+                    <b>Dafeng Zhang</b>, Xiaobing Wang and Zhezhu Jin.<br>
+                    <a href="https://ieeexplore.ieee.org/document/10096428" target="_blank">[Paper]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>			
+
+	    <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\publications\DMTNet.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Dynamic Multi-Scale Network for Dual-Pixel Images Defocus Deblurring with Transformer</b><br>
+                    International Conference on Multimedia and Expo, <b>ICME 2022</b></i> &nbsp;<br>
+		    <em class="red"><b>Oral</b></em><br>
+                    <b>Dafeng Zhang</b> and Xiaobing Wang.<br>
+                    <a href="https://ieeexplore.ieee.org/document/9859631" target="_blank">[Paper]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>	
+
+            <!--Technical Reports-->
+            <h2 id="Technical Reports">
+              Technical Reports
+              <span style="font-size: 1rem;margin-left: 1rem;position: relative;bottom: .2rem;">
+              </span>
+            </h2>
+           
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\publications\SwinFIR.jpg">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>SwinFIR: Revisiting the SWINIR with fast Fourier convolution and improved training for image super-resolution</b><br>
+                    arXiv Preprint, 2023<br>
+                    <b>Dafeng Zhang</b>, Feiyu Huang, Shizhuo Liu, Xiaobing Wang and Zhezhu Jin.<br>                   
+                    <a href="https://arxiv.org/pdf/2208.11247.pdf" target="_blank">[Paper]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            
+            <!--Challenge Awards-->
+            <h2 id="awards">Challenge Awards</h2>
+
+            <!--List of Awards-->  
+            
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2023_StereoSR_Track1.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2023 Challenge on Stereo Image Super-Resolution: Track 1</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>Winner Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Jia Li, Fan Wang and Zheng Xie.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Wang_NTIRE_2023_Challenge_on_Stereo_Image_Super-Resolution_Methods_and_Results_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2023_StereoSR_Track2.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2023 Challenge on Stereo Image Super-Resolution: Track 2</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>Winner Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Jia Li, Fan Wang and Zheng Xie.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Wang_NTIRE_2023_Challenge_on_Stereo_Image_Super-Resolution_Methods_and_Results_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+			
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2023_StereoSR_Track3.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2023 Challenge on Stereo Image Super-Resolution: Track 3</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>3rd Place Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Jia Li, Fan Wang and Zheng Xie.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Wang_NTIRE_2023_Challenge_on_Stereo_Image_Super-Resolution_Methods_and_Results_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2023_Bokeh.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2023 Challenge on Lens-to-Lens Bokeh Effect Transformation</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>Winner Award</b></em><br> 					
+                    Xiangyu Kong, <b>Dafeng Zhang</b>, Jinlong Wu and Fan Wang.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Conde_Lens-to-Lens_Bokeh_Effect_Transformation._NTIRE_2023_Challenge_Report_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2023_Depth_Track1.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2023 Challenge on HR Depth from Images of Specular and Transparent Surfaces Track 1: Stereo</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>Winner Award</b></em><br> 					
+                    Jun Shi, <b>Dafeng Zhang</b>, Yong A, Yixiang Jin and Dingzhe Li.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Ramirez_NTIRE_2023_Challenge_on_HR_Depth_From_Images_of_Specular_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2023_Denoising.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2023 Challenge on Image Denoising</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>Runner-Up Award</b></em><br> 					
+                    Xiangyu Kong, Jinlong Wu, <b>Dafeng Zhang</b> and Jianxing Zhang.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Li_NTIRE_2023_Challenge_on_Image_Denoising_Methods_and_Results_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE-logo.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2023 Challenge on Image Super-Resolution (×4)</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>4th Place Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Jia Li, Fan Wang and Chunmiao Li.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Zhang_NTIRE_2023_Challenge_on_Image_Super-Resolution_x4_Methods_and_Results_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\MIPI2023_NighttimeFlareRemoval_Best.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>MIPI 2023 Challenge on Nighttime Flare Removal</b><br>
+                    Mobile Intelligent Photography and Imaging WorkShop (MIPI), <b>CVPR 2023</b></i> &nbsp;<br>
+                    <em class="red"><b>Best Visualization Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Xiangyu Kong, Guanqun Liu, Mengmeng Bai, Jia Ouyang, Xiaobing Wang and Jiahui Yuan.<br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/MIPI/papers/Dai_MIPI_2023_Challenge_on_Nighttime_Flare_Removal_Methods_and_Results_CVPRW_2023_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\Baidu_Demoire.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>百度网盘AI大赛：图像处理挑战赛-文档图像摩尔纹消除赛</b><br>
+                    Baidu <br>
+                    <em class="red"><b>Winner Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Xiaobing Wang and Zhezhu Jin.<br>
+		    <a href="https://aistudio.baidu.com/competition/detail/128/0/leaderboard" target="_blank">[Leaderboard]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\AIM-logo.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>AIM 2022 Challenge on Super-Resolution of Compressed Image</b><br>
+                    Advances in Image Manipulation Workshop (AIM), <b>ECCV 2022</b></i> &nbsp;<br>
+                    <em class="red"><b>4th Place Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Xiaobing Wang and Zhezhu Jin.<br>   
+                    <a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL1qb_iuH_AhVNbt4KHWFpBzkQFnoECA0QAQ&url=https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-031-25066-8_8&usg=AOvVaw0xgY21l5IqieacS4L_SzMm&opi=89978449" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\MIPI2022_UDC.PNG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>MIPI 2022 Challenge on Under-display Camera Image Restoration</b><br>
+                    Mobile Intelligent Photography and Imaging WorkShop (MIPI), <b>ECCV 2022</b></i> &nbsp;<br>
+                    <em class="red"><b>3rd Place Award</b></em><br> 					
+                    <b>Dafeng Zhang</b>, Feiyu Huang, Shizhuo Liu, Xiaobing Wang, and Zhezhu Jin.<br>   
+                    <a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjk2-XIgOH_AhXGp1YBHUMUBp0QFnoECBAQAw&url=https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-031-25072-9_5%23%3A~%3Atext%3DWe%2520are%2520seeking%2520an%2520efficient%2Cobtain%2520a%2520complete%2520depth%2520map.&usg=AOvVaw1TcZKoDqghTaskDlSitNN-&opi=89978449" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2021_DefocusDeblurringDualPixel.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2021 Challenge on Defocus Deblurring using Dual-pixel Images</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2021</b></i> &nbsp;<br>
+                    <em class="red"><b>Winner Award</b></em><br> 					
+                    <b>Dafeng Zhang</b> and Xiaobing Wang.<br>   
+                    <a href="https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Abuolaim_NTIRE_2021_Challenge_for_Defocus_Deblurring_Using_Dual-Pixel_Images_Methods_CVPRW_2021_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE-logo.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2021 Challenge on Image Deblurring: Track 1 Low Resolution</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2021</b></i> &nbsp;<br>
+                    <em class="red"><b>4th Place Award</b></em><br> 					
+                    <b>Dafeng Zhang</b> and Xiaobing Wang.<br>   
+                    <a href="https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Nah_NTIRE_2021_Challenge_on_Image_Deblurring_CVPRW_2021_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src=".\images\challenges\NTIRE2021_ImageDeblurring_Track2.JPG">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NTIRE 2021 Challenge on Image Deblurring: Track 2 JPEG Artifacts</b><br>
+                    New Trends in Image Restoration and Enhancement Workshop (NTIRE), <b>CVPR 2021</b></i> &nbsp;<br>
+                    <em class="red"><b>Runner-Up Award</b></em><br> 					
+                    Xiaobing Wang and <b>Dafeng Zhang</b>.<br>   
+                    <a href="https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Nah_NTIRE_2021_Challenge_on_Image_Deblurring_CVPRW_2021_paper.pdf" target="_blank">[Report]</a>                   
+                  </p>
+                </div>
+              </div>
+            </article>
+
+	    <h2 id="services">Professional Service</h2>
+            <b>Journal Reviewer</b>:
+            <ul>
+                <li>International Journal of Computer Vision (IJCV)</li>
+		<li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+            </ul>
+            <b>Conference Reviewer</b>:
+            <ul>
+                <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</li>
+		<li>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container" >
+      <br><hr>
+     
+      <div class="footer_social" style= "text-align: center; margin-left: 275px;">
+        <span style="display:inline; font-size: 2em; margin-right: 7px; color: #4a4a4a;">Dafeng Zhang</span>
+        
+        <a href="" target="_blank">
+          <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a;"></span>
+        </a>
+        <a href="https://scholar.google.com/citations?user=_r5ZUm8AAAAJ" target="_blank">
+          <span class="fab fa-google fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 6px"></span>
+        </a>
+        <a href="mailto:dfeng.zhang@samsung.com" target="_blank">
+          <span class="fa-regular fa-envelope fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 6px"></span>
+        </a>
+        <div class="footer_social" style= "display:inline; float:right;  font-size: 2em;">
+          © modified from Yuekun Dai's website
+        </div>
+      
+ 
+    </footer>
+</section>
+
+  <script>
+
+    var $hashList = $('.menu-list a'), offsetList, maxScrollHeight;
+
+    $('#sidebar').on('click', 'a', function(){
+      activate($(this))
+    });
+    
+    $(window).on('resize', debounce(calculateBoundary, 300));
+
+    $(document).on('scroll', debounce(judgeScroll, 300));
+
+    calculateBoundary();
+    judgeScroll();
+    
+    function  calculateBoundary() {
+      offsetList = $hashList.map(function(idx, ele){
+        return $(ele.hash).offset().top
+      });
+      maxScrollHeight = $(document).height() - $(window).height()
+    }
+    
+    function judgeScroll() {
+      var tps = $("html").scrollTop()
+              ? $("html").scrollTop()
+              : $("body").scrollTop(),
+              len = offsetList.length;
+      if(tps >= maxScrollHeight-10){
+        activate($hashList.eq(len-1));
+        return
+      }
+      for(var i=0; i<len; i++){
+       if(tps+50<offsetList[i]){
+          activate($hashList.eq(Math.max(0,i-1)));
+          return
+        }
+      }
+    }
+
+    function activate(ele){
+      $hashList.removeClass('is-active');
+      ele.addClass('is-active');
+    }
+
+    function debounce(fn, delay) {
+      var timeout = null;
+      return function () {
+        var args = arguments;
+        var context = this;
+        if (!timeout) {
+          timeout = setTimeout(function () {
+            timeout = 0;
+            return fn.apply(context, args);
+          }, delay);
+        }
+      };
+    }
+
+
+
+  </script>
+
+
+</body>
+
+</html>

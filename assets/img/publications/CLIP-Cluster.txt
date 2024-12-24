@@ -1,0 +1,7 @@
+@inproceedings{shen2023clip,
+  title={Clip-cluster: Clip-guided attribute hallucination for face clustering},
+  author={Shen, Shuai and Li, Wanhua and Wang, Xiaobing and Zhang, Dafeng and Jin, Zhezhu and Zhou, Jie and Lu, Jiwen},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={20786--20795},
+  year={2023}
+}

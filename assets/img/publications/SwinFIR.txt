@@ -1,0 +1,6 @@
+@article{zhang2022swinfir,
+  title={Swinfir: Revisiting the swinir with fast fourier convolution and improved training for image super-resolution},
+  author={Zhang, Dafeng and Huang, Feiyu and Liu, Shizhuo and Wang, Xiaobing and Jin, Zhezhu},
+  journal={arXiv preprint arXiv:2208.11247},
+  year={2022}
+}

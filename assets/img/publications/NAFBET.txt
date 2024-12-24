@@ -1,0 +1,7 @@
+@inproceedings{kong2023nafbet,
+  title={Nafbet: Bokeh effect transformation with parameter analysis block based on nafnet},
+  author={Kong, Xiangyu and Wang, Fan and Zhang, Dafeng and Wu, Jinlong and Liu, Zikun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1603--1612},
+  year={2023}
+}
